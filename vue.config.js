@@ -12,5 +12,6 @@ module.exports = defineConfig({
       filename: 'index.html'
     }
   },
-  productionSourceMap: false
+  productionSourceMap: false,
+  publicPath:'./'
 })
